@@ -1,4 +1,16 @@
-remote_theme: userd-official/blog
-title: Userd Blog
-tagline: We make bots.
-canonical: http://jekyll.gtat.me
+remote_theme: userd-official/userd-theme
+
+title: userd blog
+description: We make bots.
+author: userd
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jemoji
